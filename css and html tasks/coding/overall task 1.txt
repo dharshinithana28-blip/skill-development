@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cool Cream Ice Cream</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#fff5f7;
+      color:#333;
+    }
+
+    header{
+      background:#ff69b4;
+      color:white;
+      padding:20px;
+      text-align:center;
+    }
+
+    nav{
+      background:#ffb6c1;
+      padding:12px;
+      text-align:center;
+    }
+
+    nav a{
+      text-decoration:none;
+      color:#333;
+      margin:0 15px;
+      font-weight:bold;
+    }
+
+    .hero{
+      height:400px;
+      background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+      url('https://images.unsplash.com/photo-1563805042-7684c019e1cb');
+      background-size:cover;
+      background-position:center;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      color:white;
+      text-align:center;
+    }
+
+    .hero h1{
+      font-size:50px;
+    }
+
+    .hero p{
+      margin-top:10px;
+      font-size:20px;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:20px;
+      padding:12px 25px;
+      background:#ff69b4;
+      color:white;
+      text-decoration:none;
+      border-radius:30px;
+    }
+
+    .flavors{
+      padding:50px 20px;
+      text-align:center;
+    }
+
+    .flavors h2{
+      margin-bottom:30px;
+      color:#ff1493;
+    }
+
+    .cards{
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+
+    .card{
+      background:white;
+      width:250px;
+      border-radius:15px;
+      overflow:hidden;
+      box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .card img{
+      width:100%;
+      height:200px;
+      object-fit:cover;
+    }
+
+    .card h3{
+      padding:15px;
+      color:#ff1493;
+    }
+
+    .card p{
+      padding:0 15px 20px;
+    }
+
+    footer{
+      background:#ff69b4;
+      color:white;
+      text-align:center;
+      padding:15px;
+      margin-top:30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Cool Cream Ice Cream</h1>
+    <p>Fresh • Sweet • Delicious</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Flavors</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <div>
+      <h1>Taste the Happiness</h1>
+      <p>Enjoy the best ice creams in town!</p>
+      <a href="C:\Users\Sangeetha\task page 2.html" class="btn">Order Now</a>
+    </div>
+  </section>
+
+  <section class="flavors">
+    <h2>Popular Flavors</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <img src=" https://images.unsplash.com/photo-1561845730-208ad5910553" alt="Chocolate Ice Cream">
+        <h3>Chocolate</h3>
+        <p>Rich and creamy chocolate flavor loved by everyone.</p>
+      </div>
+
+      <div class="card">
+        <img src="c:\Users\Sangeetha\Downloads\Screenshot (214) (2).png" alt="Strawberry Ice Cream">
+        <h3>Strawberry</h3>
+        <p>Sweet strawberry flavor with fresh fruit taste.</p>
+      </div>
+
+      <div class="card">
+        <img src=" https://images.unsplash.com/photo-1570197788417-0e82375c9371" alt="Vanilla Ice Cream">
+        <h3>Vanilla</h3>
+        <p>Classic vanilla flavor with smooth creamy texture.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Cool Cream Ice Cream | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>

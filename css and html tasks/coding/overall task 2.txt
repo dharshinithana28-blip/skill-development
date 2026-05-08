@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Placed</title>
+
+  <style>
+    body{
+      margin:0;
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:#fff5f7;
+      font-family:Arial, sans-serif;
+    }
+
+    .box{
+      background:white;
+      padding:40px;
+      border-radius:15px;
+      text-align:center;
+      box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    h1{
+      color:#ff1493;
+      margin-bottom:15px;
+    }
+
+    p{
+      font-size:18px;
+      color:#555;
+    }
+
+    a{
+      display:inline-block;
+      margin-top:20px;
+      padding:12px 25px;
+      background:#ff69b4;
+      color:white;
+      text-decoration:none;
+      border-radius:30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <h1>🍦 Order Placed Successfully!</h1>
+    <p>Thank you for ordering from Cool Cream Ice Cream.</p>
+
+    <a href="C:\Users\Sangeetha\task.html">Back to Home</a>
+  </div>
+
+</body>
+</html>
